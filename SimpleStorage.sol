@@ -1,5 +1,6 @@
 pragma solidity ^0.4.0;
-
+// Stores a number (gas consumed)
+// Returns the number (gas is not consumed, because of "constant"
 contract SimpleStorage {
     uint storedData;
 
